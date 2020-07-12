@@ -1,3 +1,6 @@
 [submodule "hugo-future-imperfect-slim"]
 	path = hugo-future-imperfect-slim
 	url = git@github.com:pacollins/hugo-future-imperfect-slim
+[submodule "public"]
+	path = public
+	url = git@github.com:Chinwer/chinwer.github.io
