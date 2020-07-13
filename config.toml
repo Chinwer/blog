@@ -10,6 +10,9 @@ googleAnalytics         = ""
 pluralizeListTitles     = false
 disableLanguages        = [""]
 
+[blackfriday]
+smartypants = false
+
 [outputs]
   home                  = ["html", "json"]
 
