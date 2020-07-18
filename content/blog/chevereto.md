@@ -10,7 +10,7 @@ description = "在服务器上利用Chevereto自建图床"
 
 tags = [ "tutorial", "image hosting", "chevereto" ]
 
-images = ["img/2017/08/pic04.jpg"]
+images = ["http://47.94.16.255/images/images/2020/07/18/pic04.jpg"]
 
 +++
 
