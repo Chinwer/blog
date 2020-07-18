@@ -23,9 +23,9 @@ images = ["http://47.94.16.255/images/content/images/users/Vk3/bkg_1594585280.jp
   - 用一个 $odd$ 数组记录第 $i$ 个奇数的下标。因此子数组 $[odd[i], odd[i+k-1]]$ 恰好包含 $k$ 个奇数 ；
 
   - 同时，子数组 $(odd[i-1], odd[i])$ 及 $(odd[i+k-1], odd[i+k])$ 均为偶数。因此所有起始点为第 $i$ 个奇数的“优美”数组的个数即为：
-    $$
+    <div>$$
     (odd[i] - odd[i-1]) * (odd[i+k] - odd[i+k-1])
-    $$
+    $$</div>
 
 - c++代码
 
