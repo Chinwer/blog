@@ -34,7 +34,6 @@ BFS使用队列，将每个目前未搜索的结点依次入队，然后弹出�
 
   力扣中用到此模板的常见题目有：
 
-  - [二叉树的层序遍历](https://leetcode-cn.com/problems/binary-tree-level-order-traversal/)
   - [二叉树的最大深度](https://leetcode-cn.com/problems/maximum-depth-of-binary-tree/)
 
 - 需要确定当前遍历到了哪一层
@@ -59,4 +58,11 @@ BFS使用队列，将每个目前未搜索的结点依次入队，然后弹出�
   力扣中用到此模板的常见题目有：
 
   - [对称二叉树](https://leetcode-cn.com/problems/symmetric-tree/)
-  - [路径总和](https://leetcode-cn.com/submissions/detail/89155933/)
+  - [路径总和](https://leetcode-cn.com/problems/path-sum/)
+  - [填充每个节点的下一个右侧节点指针](https://leetcode-cn.com/problems/populating-next-right-pointers-in-each-node/)
+  - [填充每个节点的下一个右侧节点指针 II](https://leetcode-cn.com/problems/populating-next-right-pointers-in-each-node-ii/)
+  - [二叉树的所有路径](https://leetcode-cn.com/problems/binary-tree-paths/)
+  - [二叉树的层序遍历](https://leetcode-cn.com/problems/binary-tree-level-order-traversal/)
+  - [二叉树的层次遍历 II](https://leetcode-cn.com/problems/binary-tree-level-order-traversal-ii/)
+  - [相同的树](https://leetcode-cn.com/problems/same-tree/)
+

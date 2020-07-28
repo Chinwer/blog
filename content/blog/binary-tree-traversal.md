@@ -74,9 +74,11 @@ images = ["http://47.94.16.255/images/images/2020/07/18/elf.jpg"]
   }
   ```
 
+  **注意不需要特判 $root$ 是否为空。**
+
 - 迭代优化版本
 
-  优化思路为只对右子节点进行压栈。
+  优化思路为只对右子节点进行压栈。（这个版本有点复杂，又要判断指针是否为空，又要判断栈是否为空，建议记上面一个版本）
 
   ```c++
   void preorder_traversal(TreeNode *root) {
@@ -97,6 +99,14 @@ images = ["http://47.94.16.255/images/images/2020/07/18/elf.jpg"]
       }
   }
   ```
+
+- 力扣题目
+
+  力扣上可套用先序遍历模板的题目有：
+
+  - [路径总和](https://leetcode-cn.com/problems/path-sum/)
+  - [路径总和 II](https://leetcode-cn.com/problems/path-sum-ii/)
+  - [左叶子之和](https://leetcode-cn.com/problems/sum-of-left-leaves/)
 
 ### 中序遍历
 
@@ -131,6 +141,8 @@ images = ["http://47.94.16.255/images/images/2020/07/18/elf.jpg"]
       }
   }
   ```
+  
+  **不需要特判 $root$ 是否为空。**
 
 ### 后序遍历
 
@@ -168,6 +180,17 @@ images = ["http://47.94.16.255/images/images/2020/07/18/elf.jpg"]
       }
   }
   ```
+
+  **不需要特判 $root$ 是否为空。**
+
+- 力扣题目
+
+  力扣上可套用后序遍历模板的题目有：
+
+  - [路径总和 II](https://leetcode-cn.com/problems/path-sum-ii/)
+  - [检查平衡性](https://leetcode-cn.com/problems/check-balance-lcci/)
+  - [二叉树的最近公共祖先](https://leetcode-cn.com/problems/lowest-common-ancestor-of-a-binary-tree/)
+  - [二叉树的所有路径](https://leetcode-cn.com/problems/binary-tree-paths/)
 
 ### 层次遍历
 
@@ -224,6 +247,8 @@ images = ["http://47.94.16.255/images/images/2020/07/18/elf.jpg"]
       }
   }
   ```
+  
+  **注意需要特判 $root$ 是否为空。**
 
 ### 先中后序遍历统一
 
