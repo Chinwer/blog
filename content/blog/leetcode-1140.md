@@ -12,7 +12,7 @@ tags = [
     "leetcode", "solution"
 ]
 
-images = ["http://47.94.16.255/images/images/2020/07/19/ed93cb4a546971f4dfaaf31666dfb8b1_1440w.jpg"]
+images = ["http://47.94.16.255/images/images/2020/08/03/pavement-wallpaper.jpg"]
 
 +++
 
